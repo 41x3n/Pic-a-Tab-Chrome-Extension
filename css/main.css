@@ -1,0 +1,28 @@
+body {
+    background-image: url(https://source.unsplash.com/random/1920x1080);
+}
+
+
+.jumbotron {
+    opacity: 0.65;
+}
+
+
+.container {
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* .text {
+    height: 70px;
+    width: 400px;
+    background: #afdfd7 ;
+    display: inline-table;
+}  */
+
+/* .text h1 span {
+    text-align: center;
+} */

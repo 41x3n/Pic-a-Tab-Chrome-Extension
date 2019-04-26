@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Pic-a-Tab",
+    "description": "A plugin that shows new picture on every new tab",
+    "version": "1",
+    "author": "41x3n",
+
+    "browser_action": {
+        "default_icon": "tab-icon.png",
+        "default_title": "Mandir Banyega",
+        "default_popup": "popup.html"
+    },
+
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    
+    "background": {
+        "scripts": [
+            "script/main.js",
+            "script/moment.js",
+            "script/bootstrap.bundle.js",
+            "script/jquery-3.4.0.min.js"
+        ]
+    },
+
+    "permissions": ["activeTab"]
+}
